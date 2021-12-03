@@ -133,7 +133,7 @@ a {
   }
 
   .logo {
-    image: url("../images/logo-active.png");
+    background-image: url("../images/logo-active.png");
   }
 }
 
@@ -169,6 +169,7 @@ a {
   padding: 10px;
   text-align: center;
   margin-bottom: 20px;
+
   h2 {
     margin-top: 20px;
     margin-bottom: 15px;
@@ -198,6 +199,8 @@ a {
 .service-icon {
   display: block;
   margin: auto;
+  width: 40px;
+  height: 40px
 }
 
 .service-card:hover {
@@ -250,8 +253,8 @@ a {
   position: absolute;
   top: -30px;
   height: 60px;
-  left:0;
-  right:0;
+  left: 0;
+  right: 0;
   background: linear-gradient(to bottom right, transparent 50%, lightgrey 51%);
 }
 
