@@ -36,11 +36,6 @@ html {
     opacity: 1; }
   50% {
     opacity: 0; } }
-.logo {
-  font-size: 25px;
-  font-weight: 500;
-  color: white; }
-
 /* nav menu */
 .navbar {
   display: flex;
@@ -161,7 +156,7 @@ a {
 
 .service-card:hover {
   cursor: pointer;
-  border: 1px solid dodgerblue;
+  border: 1px solid lightblue;
   height: 220px; }
   .service-card:hover .service-icon {
     transform: translateY(-100px);
