@@ -41,8 +41,11 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 25px;
   position: fixed;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   width: 100%;
   z-index: 2;
   top: 0; }
@@ -92,13 +95,18 @@ a {
   transition: all 0.2s ease-in-out;
   border: 0; }
 
+.after-scroll-active-logo {
+  display: none; }
+
 .navbar.scrolled {
   border-bottom: 1px solid gray;
   background: white; }
   .navbar.scrolled .navbar-link {
     color: black; }
-  .navbar.scrolled .logo {
-    background-image: url("../images/logo-active.png"); }
+  .navbar.scrolled .active-logo {
+    display: none; }
+  .navbar.scrolled .after-scroll-active-logo {
+    display: block; }
 
 /* when scroll to particular section */
 .active-link {
@@ -112,15 +120,26 @@ a {
   margin-top: -120px; }
 
 .intro-container {
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center; }
-  .intro-container img {
-    height: 220px;
-    width: 220px;
-    margin: 20px;
-    border: 1px solid black;
-    z-index: 1; }
+
+.intro-card {
+  z-index: 1;
+  border: 1px solid black;
+  margin: 20px;
+  color: white;
+  height: 220px;
+  width: 220px;
+  display: flex;
+  font-size: 15px; }
+  .intro-card .intro-card-img {
+    display: block;
+    width: 100%; }
+  .intro-card h5 {
+    position: absolute;
+    padding: 10px; }
 
 .services {
   background: white;
