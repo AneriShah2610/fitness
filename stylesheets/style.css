@@ -161,7 +161,8 @@ a {
   .service-card:hover .service-icon {
     transform: translateY(-100px);
     transition: transform ease-in-out;
-    transition-duration: 1s; }
+    transition-duration: 1s;
+    background: white; }
   .service-card:hover .service-title {
     transition: transform linear;
     transition-duration: 1s;
