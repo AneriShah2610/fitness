@@ -164,7 +164,7 @@ a {
 
 .intro-card {
   z-index: 1;
-  border: 1px solid black;
+  border: 0.5px solid black;
   margin: 20px;
   color: white;
   height: 220px;
@@ -180,34 +180,30 @@ a {
 
   h5 {
     position: absolute;
-    padding-top: 10px;
-    padding-left: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
   }
 
   .intro-table {
+    margin-top: 100px;
     display: flex;
     justify-content: center;
-    align-self: center;
+    align-items: center;
     position: absolute;
     border-collapse: collapse;
-    margin-top: 80px;
-  }
 
-  tr {
-    border-bottom: 1px solid ghostwhite;
-  }
+    tr {
+      border-bottom: 1px solid ghostwhite;
+    }
 
-  tr:last-child {
-    border: none;
-  }
+    tr:last-child {
+      border: none;
+    }
 
-  td {
-    padding: 10px;
-    vertical-align: middle;
-  }
-
-  p {
-    position: absolute
+    td {
+      padding: 10px;
+      vertical-align: middle;
+    }
   }
 }
 
