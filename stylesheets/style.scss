@@ -156,7 +156,6 @@ a {
 }
 
 .intro-container {
-  margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -175,11 +174,39 @@ a {
   .intro-card-img {
     display: block;
     width: 100%;
+    height: 100%;
   }
 
   h5 {
     position: absolute;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  .intro-table {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    position: absolute;
+    border-collapse: collapse;
+    margin-top: 80px;
+  }
+
+  tr {
+    border-bottom: 1px solid ghostwhite;
+  }
+
+  tr:last-child {
+    border: none;
+  }
+
+  td {
     padding: 10px;
+    vertical-align: middle;
+  }
+
+  p {
+    position: absolute
   }
 }
 
