@@ -156,6 +156,15 @@ a {
     .intro-card .intro-table td {
       padding: 10px;
       vertical-align: middle; }
+  .intro-card p {
+    margin-top: 100px;
+    position: absolute;
+    word-wrap: break-word;
+    /* All browsers since IE 5.5+ */
+    overflow-wrap: break-word;
+    /* Renamed property in CSS3 draft spec */
+    padding: 10px;
+    width: 200px; }
 
 .services {
   background: white;
