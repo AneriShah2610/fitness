@@ -56,10 +56,7 @@ html {
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  padding-right: 25px;
-  padding-left: 25px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 25px;
   width: 100%;
   z-index: 2;
   top: 0;
@@ -164,7 +161,6 @@ a {
 
 .intro-card {
   z-index: 1;
-  border: 0.5px solid black;
   margin: 20px;
   color: white;
   height: 220px;
@@ -173,46 +169,35 @@ a {
   font-size: 15px;
 
   .intro-card-img {
-    display: block;
     width: 100%;
     height: 100%;
   }
 
-  h5 {
+  .intro-card-title {
     position: absolute;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin: 10px 0 0 10px;
   }
 
-  .intro-table {
-    margin-top: 100px;
+  .intro-card-table {
+    position: absolute;
     display: flex;
     justify-content: center;
-    align-items: center;
-    position: absolute;
+    align-self: end;
+    width: 220px;
     border-collapse: collapse;
 
     tr {
-      border-bottom: 1px solid ghostwhite;
+      height: 50px;
+      border-bottom: 1px solid white;
     }
 
     tr:last-child {
-      border: none;
+      border-bottom: none;
     }
 
     td {
-      padding: 10px;
-      vertical-align: middle;
+      padding: 5px;
     }
-  }
-
-  p {
-    margin-top: 100px;
-    position: absolute;
-    word-wrap: break-word; /* All browsers since IE 5.5+ */
-    overflow-wrap: break-word; /* Renamed property in CSS3 draft spec */
-    padding: 10px;
-    width: 200px;
   }
 }
 
