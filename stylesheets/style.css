@@ -150,6 +150,14 @@ a {
       border-bottom: none; }
     .intro-card .intro-card-table td {
       padding: 5px; }
+  .intro-card p {
+    position: absolute;
+    display: flex;
+    align-self: end;
+    padding: 10px;
+    width: 150px;
+    font-weight: bold;
+    margin: 10px 0 10px 0; }
 
 .services {
   background: white;

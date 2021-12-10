@@ -199,6 +199,16 @@ a {
       padding: 5px;
     }
   }
+
+  p {
+    position: absolute;
+    display: flex;
+    align-self: end;
+    padding: 10px;
+    width: 150px;
+    font-weight: bold;
+    margin: 10px 0 10px 0;
+  }
 }
 
 .services {
